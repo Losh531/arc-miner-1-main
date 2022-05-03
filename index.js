@@ -25,7 +25,7 @@ const n = prompt("How Many Tab(s) Would You Like To Open? ");
       await console.log("Opening Tab Number " + x);
       i++;
     }
-    await delay(60000 * 1)
+    await delay(60000 * 60)
     browsers.forEach(async function(item, index){
       await item.close()
     })
