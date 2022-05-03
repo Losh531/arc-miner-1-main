@@ -1,0 +1,31 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "arc-miner",
+  "version": "0.0.1",
+  "description": "An arc miner...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "delay": "^4.4.0",
+    "express": "^4.17.1",
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^5.3.1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://github.com/Losh531/arc-miner-1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "arc"
+  ],
+  "devDependencies": {
+    "@architect/sandbox": "^3.3.5"
+  }
+}
