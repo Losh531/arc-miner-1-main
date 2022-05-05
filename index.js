@@ -13,7 +13,7 @@ const n = prompt("How Many Tab(s) Would You Like To Open? ");
       let browsers = []
       while(i < n){
 
-      await delay(3000);
+      await delay(1000);
       let browser = await puppeteer.launch({args: ['--no-sandbox', '--disable-setuid-sandbox']});
       
       const page = await browser.newPage();
@@ -25,7 +25,7 @@ const n = prompt("How Many Tab(s) Would You Like To Open? ");
       await console.log("Opening Tab Number " + x);
       i++;
     }
-    await delay(60000 * 60)
+    await delay(60000 * 20)
     browsers.forEach(async function(item, index){
       await item.close()
     })
