@@ -20,7 +20,7 @@ const n = prompt("How Many Tab(s) Would You Like To Open? ");
       await browsers.push(browser)
       //await browsers.push(browser)
       //await page.setDefaultNavigationTimeout(Infinity); 
-      await page.goto('https://arcio-server.losh531.repl.co/');
+      await page.goto('http://arc.admin.missionimmpossible.com/');
       let x = i + 1;
       await console.log("Opening Tab Number " + x);
       i++;
